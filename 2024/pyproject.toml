@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aoc-2024"
+version = "0.1.0"
+description = ""
+authors = ["Diego Mesa <dmesa@seekr.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.1.1"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
